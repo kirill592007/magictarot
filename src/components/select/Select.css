@@ -1,0 +1,19 @@
+.select{
+    border: 1px solid #220634;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #3b0c5d;
+    font-size: 18px;
+}
+.option{
+    cursor: pointer;
+}
+@media (max-width: 425px) {
+    .select{
+        padding: 8px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}

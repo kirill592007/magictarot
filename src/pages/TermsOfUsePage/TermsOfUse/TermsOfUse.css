@@ -1,0 +1,16 @@
+.termsOfUse__content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 10px;
+}
+@media (max-width: 576px) {
+    .termsOfUse__content{
+        row-gap: 20px;
+    }
+}
+@media (max-width: 425px) {
+    .termsOfUse__content{
+        row-gap: 15px;
+    }
+}

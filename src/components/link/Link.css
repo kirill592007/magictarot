@@ -1,0 +1,13 @@
+.link{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.active{
+    border-bottom: 1px solid #fff;
+}
+@media (max-width: 425px) {
+    .link{
+        font-size: 18px;
+    }
+}

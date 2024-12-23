@@ -1,0 +1,12 @@
+.support{
+    flex-grow: 1;
+}
+.support__content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.mail{
+    border-bottom: 1px solid #fff;
+    width: fit-content;
+}
